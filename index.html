@@ -1,3 +1,4 @@
+Copy code
 <!doctype html>
 <html lang="en">
 
@@ -11,15 +12,20 @@
   <style>
     .circle-image {
       border-radius: 50%;
+      width: 300px; /* Adjust the width as desired */
+      height: 300px; /* Adjust the height as desired */
+      object-fit: cover;
     }
   </style>
 </head>
 
 <body>
-  <div class="border fluid text-center">
+  <div class="container">
     <div class="row">
-      <div class="col">
-        <img src="contact-card/business_shot.jpg" class="circle-image">
+      <div class="col-12 col-sm-6 offset-sm-3 text-center">
+        <img src="business_shot .jpg" alt="Contact Image" class="circle-image">
+        <h3>Contact Name</h3>
+        <p>Contact Information</p>
       </div>
     </div>
   </div>
