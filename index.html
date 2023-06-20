@@ -118,5 +118,18 @@
         });
       });
     </script>
+    <script>
+      $(document).ready(function () {
+        $(".img-container img").mouseover(function () {
+          $(this).css("filter", "brightness(100%)");
+          $(this).css("background-color", "orange");
+        });
+    
+        $(".img-container img").mouseout(function () {
+          $(this).css("filter", "none");
+          $(this).css("background-color", "transparent");
+        });
+      });
+    </script>
   </body>
 </html
